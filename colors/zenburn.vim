@@ -228,7 +228,8 @@ hi FoldColumn      guifg=#93b3a3 guibg=#3f4040
 hi Folded          guifg=#93b3a3 guibg=#3f4040
 hi Function        guifg=#efef8f                              ctermfg=228
 hi Identifier      guifg=#efdcbc                              ctermfg=223 cterm=none
-hi IncSearch       guifg=#f8f893 guibg=#385f38                ctermfg=228 ctermbg=23
+"@todo set guifg and guibg according to ctermfg and ctermbg
+hi IncSearch       guifg=#f8f893 guibg=#385f38                ctermfg=228 ctermbg=243
 hi Keyword         guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Macro           guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
 hi ModeMsg         guifg=#ffcfaf gui=none                     ctermfg=223 cterm=none
@@ -241,7 +242,8 @@ hi PreCondit       guifg=#dfaf8f gui=bold                     ctermfg=180 cterm=
 hi PreProc         guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
 hi Question        guifg=#ffffff gui=bold                     ctermfg=231 cterm=bold
 hi Repeat          guifg=#ffd7a7 gui=bold                     ctermfg=223 cterm=bold
-hi Search          guifg=#ffffe0 guibg=#284f28                ctermfg=230 ctermbg=22
+"@todo set guifg and guibg according to ctermfg and ctermbg
+hi Search          guifg=#ffffe0 guibg=#284f28                ctermfg=220 ctermbg=236
 hi SignColumn      guifg=#9fafaf gui=bold                     ctermfg=109 cterm=bold
 hi SpecialChar     guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi SpecialComment  guifg=#82a282 gui=bold                     ctermfg=108 cterm=bold
