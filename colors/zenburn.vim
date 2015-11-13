@@ -248,7 +248,7 @@ hi SignColumn      guifg=#9fafaf gui=bold                     ctermfg=109 cterm=
 hi SpecialChar     guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi SpecialComment  guifg=#82a282 gui=bold                     ctermfg=108 cterm=bold
 hi Special         guifg=#cfbfaf                              ctermfg=181
-hi SpecialKey      guifg=#9ece9e                              ctermfg=151
+hi SpecialKey      guifg=#9ece9e                              ctermfg=242
 hi Statement       guifg=#e3ceab gui=none                     ctermfg=187 cterm=none
 hi StatusLine      guifg=#313633 guibg=#ccdc90                ctermfg=236 ctermbg=186
 hi StatusLineNC    guifg=#2e3330 guibg=#88b090                ctermfg=235 ctermbg=108
@@ -286,7 +286,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi FoldColumn    guibg=#161616                         ctermbg=233 ctermfg=109
     hi Folded        guibg=#161616                         ctermbg=233 ctermfg=109
     hi LineNr        guifg=#9fafaf guibg=#161616           ctermfg=248 ctermbg=233
-    hi NonText       guifg=#404040 gui=bold                ctermfg=238
+    hi NonText       guifg=#404040 gui=bold                ctermfg=220 ctermbg=240 cterm=bold
     hi Pmenu         guibg=#242424 guifg=#ccccbc           ctermfg=251 ctermbg=235
     hi PmenuSel      guibg=#353a37 guifg=#ccdc90 gui=bold  ctermfg=187 ctermbg=236 cterm=bold
     hi MatchParen    guifg=#f0f0c0 guibg=#383838 gui=bold  ctermfg=229 ctermbg=237 cterm=bold
@@ -309,7 +309,7 @@ else
     hi FoldColumn    guibg=#333333                         ctermbg=236 ctermfg=109
     hi Folded        guibg=#333333                         ctermbg=236 ctermfg=109
     hi LineNr        guifg=#9fafaf guibg=#262626           ctermfg=248 ctermbg=235
-    hi NonText       guifg=#5b605e gui=bold                ctermfg=240
+    hi NonText       guifg=#5b605e gui=bold                ctermfg=220 ctermbg=240 cterm=bold
     hi Pmenu         guibg=#2c2e2e guifg=#9f9f9f           ctermfg=248 ctermbg=235
     hi PmenuSel      guibg=#242424 guifg=#d0d0a0 gui=bold  ctermfg=187 ctermbg=235 cterm=bold
     hi MatchParen    guifg=#b2b2a0 guibg=#2e2e2e gui=bold  ctermfg=145 ctermbg=236 cterm=bold
